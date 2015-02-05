@@ -108,7 +108,7 @@ RTORRENT_URL2="http://sourceforge.net/projects/autodl-irssi/files/inst-files/$RT
 HTPASSWD_PY_SCRIPT_URL="http://trac.edgewall.org/export/10433/trunk/contrib/htpasswd.py"
 HTPASSWD_PY_SCRIPT_URL2="http://sourceforge.net/projects/autodl-irssi/files/inst-files/htpasswd.py/download"
 
-NGINX_NAME="nginx-1.7.0"
+NGINX_NAME="nginx-1.7.9"
 NGINX_URL="http://nginx.org/download/$NGINX_NAME.tar.gz"
 
 LIGHTTPD_NAME="lighttpd-1.4.35"
@@ -144,8 +144,8 @@ LSB_DEFAULT_STOP="0 1 6"
 
 # Setting these to anything other than 80 and 443 may not work with Apache (since the
 # code assumed it would always be 80 and 443).
-HTTP_PORT=80
-HTTPS_PORT=443
+HTTP_PORT=81
+HTTPS_PORT=444
 
 SCGI_HOST="127.0.0.1"
 
